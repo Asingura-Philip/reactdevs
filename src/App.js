@@ -1,16 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import Message from './message.jsx';
 import Greet from './greeting.js';
 import Button from './button.js';
 import Card from './Card.js';
 import Userlist from './userList.js'
+import Profilecard from './ProfileCard.js';
+
 
 function App() {
  
   const data = "words"
   // const name = "Louise"
   const names = ['john ','james ','andrew ','peter ']
+  
   return (
     <>
       <Message data={data}/>
@@ -19,8 +21,8 @@ function App() {
       <Message/>
       <Message/>
       <Message/>
-      <Greet name ={"Louise"}/>
-      <Greet name ={"Logan"}/>
+      <Greet name1 ={"Louise"}/>
+      <Greet name1 ={"Logan"}/>
       <Button/>
       <Button/>
       <Button/>
@@ -32,6 +34,9 @@ function App() {
 
 
       <Userlist names={names}/>
+      
+      <Profilecard name={"Warren"} age={25} profilePicture={null}/>
+      <Profilecard name={"Jackson"} age={30} profilePicture={null} />
     </>
 
   );
