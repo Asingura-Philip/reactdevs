@@ -3,6 +3,7 @@ import './App.css';
 import Message from './message.jsx';
 import Greet from './greeting.js';
 import Button from './button.js';
+import Card from './Card.js';
 
 function App() {
  
@@ -21,6 +22,11 @@ function App() {
       <Button/>
       <Button/>
       <Button/>
+
+
+      <Card title={"Harry Potter"} description={"Magical school"}/>
+      <Card title={"Hobit"} description={"Magical world"}/>
+      <Card title={"Lord of the Rings"} description={"Dragons"}/>
     </>
 
   );
