@@ -5,6 +5,7 @@ import "./App.css";
 // import Card from "./Card.js";
 // import Userlist from "./userList.js";
 import Profilecard from "./ProfileCard.jsx";
+import Click from "./button.jsx";
 
 function App() {
   // const data = "words";
@@ -13,7 +14,8 @@ function App() {
 
   return (
     <>
-    <Profilecard/>
+      <Click/>
+      <Profilecard name={"Asingura Philip"} age={24} />
 
       {/* <Message data={data} />
       <Message />
