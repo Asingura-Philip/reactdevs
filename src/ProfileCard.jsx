@@ -5,8 +5,8 @@ function Profilecard(props){
         // <p>{props.name}{props.age}{props.profilePicture}</p>
         <div className="profilecard">
             <img className='image' src={profilepic} alt="this is a profile card"></img>
-            <h2 className='cardtitle'>Asingura Philip</h2>
-            <p>CS student</p>
+            <h2 className='cardtitle'>{props.name}</h2>
+            <p>{props.age} year old CS student</p>
         </div>
     );
 }
