@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.profilecard{
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.profilecard .image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profilecard .cardtitle{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  color: aquamarine;
+}
