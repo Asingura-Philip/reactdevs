@@ -1,0 +1,1 @@
+// 1)counter, 2)changes background color, 3)hides something with button click
