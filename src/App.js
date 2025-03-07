@@ -6,6 +6,7 @@ import "./App.css";
 // import Userlist from "./userList.js";
 import Profilecard from "./ProfileCard.jsx";
 import Click from "./button.jsx";
+import myComponent from './counter.jsx'
 
 function App() {
   // const data = "words";
