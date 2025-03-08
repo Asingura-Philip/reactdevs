@@ -4,9 +4,12 @@ import "./App.css";
 // import Button from "./button.js";
 // import Card from "./Card.js";
 // import Userlist from "./userList.js";
-import Profilecard from "./ProfileCard.jsx";
-import Click from "./button.jsx";
-import myComponent from './counter.jsx'
+// import Profilecard from "./ProfileCard.jsx";
+// import Click from "./button.jsx";
+import MyCounter from './counter.jsx'
+import ChangeColor from "./color.jsx";
+import HideContent from "./hide.jsx";
+
 
 function App() {
   // const data = "words";
@@ -15,8 +18,11 @@ function App() {
 
   return (
     <>
-      <Click/>
-      <Profilecard name={"Asingura Philip"} age={24} />
+      <MyCounter/>
+      <ChangeColor/>
+      <HideContent/>
+      {/* <Click/> */}
+      {/* <Profilecard name={"Asingura Philip"} age={24} /> */}
 
       {/* <Message data={data} />
       <Message />
