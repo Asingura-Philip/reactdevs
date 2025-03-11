@@ -6,10 +6,10 @@ import "./App.css";
 // import Userlist from "./userList.js";
 // import Profilecard from "./ProfileCard.jsx";
 // import Click from "./button.jsx";
-import MyCounter from './counter.jsx'
-import ChangeColor from "./color.jsx";
-import HideContent from "./hide.jsx";
-
+// import MyCounter from './counter.jsx'
+// import ChangeColor from "./color.jsx";
+// import HideContent from "./hide.jsx";
+import Rhook from "./hooks.jsx";
 
 function App() {
   // const data = "words";
@@ -18,9 +18,10 @@ function App() {
 
   return (
     <>
-      <MyCounter/>
+      <Rhook/>
+      {/* <MyCounter/>
       <ChangeColor/>
-      <HideContent/>
+      <HideContent/> */}
       {/* <Click/> */}
       {/* <Profilecard name={"Asingura Philip"} age={24} /> */}
 
